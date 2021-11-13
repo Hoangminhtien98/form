@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form {
+            background-color: aqua;
+            padding: 10px;
+            width: 500px;
+        }
+
+        table {
+            width: 500px;
+            height: 300px;
+        }
+
+        table, tr, td, th {
+            background-color: white;
+            padding: 4px;
+        }
+
+        th {
+            color: white;
+            background-color: #d75916;
+        }
+
+        .title1 {
+            color: blue;
+            text-align: right;
+        }
+
+        .title2 {
+            color: orange;
+        }
+
+        td {
+            width: 25%;
+        }
+
+    </style>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th colspan="4">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+            <td class="title1">Họ Và Tên:</td>
+            <td colspan="3"><label><input type="text" value="" placeholder="Nguyễn Văn A" size="30"></label></td>
+        </tr>
+        <tr>
+            <td class="title1">Email:</td>
+            <td colspan="3"><label><input type="text" value="" placeholder="abc@gmail.com" size="20"></label></td>
+        </tr>
+        <tr>
+            <td class="title1">Sở thích:</td>
+            <td class="title2"><label><input type="checkbox" value="Thể Thao">Thể thao</label></td>
+            <td class="title2"><label><input type="checkbox" value="Âm nhạc">Âm nhạc</label></td>
+            <td class="title2"><label><input type="checkbox" value="Đọc sách">Đọc sách</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="title2"><label><input type="checkbox" value="Lướt web">Lướt web</label></td>
+            <td class="title2"><label><input type="checkbox" value="Chơi game">Chơi game</label></td>
+            <td class="title2"><label><input type="checkbox" value="Điện ảnh">Điện ảnh</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="title2" colspan="3"><label><input type="checkbox" value="Du lịch">Du Lịch</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"><label><input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại"></label></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
